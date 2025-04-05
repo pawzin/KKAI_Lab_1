@@ -6,7 +6,7 @@
 *EndPalette()
 *BeginPage() // Page 1
     *IsActive()
-    *Name("page0")
+    *Name("page1")
     *Title("Untitled", On)
     *TitleFont("Noto Sans", 1, 0, 12)
     *Layout(1)
@@ -16,7 +16,7 @@
         *EndTime(Undefined)
         *Increment(Forward, Frame, 1, BounceOff)
     *EndAnimator()
-    *WindowIDs(1)
+    *WindowIDs(3)
     *BeginWindow(FePre)         // Window 1
         *IsActive()
         *ModelStorageFlag(1)
